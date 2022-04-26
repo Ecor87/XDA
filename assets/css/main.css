@@ -10746,5 +10746,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav #navbarLogo {
+  background-color: black;
+  color: white;
+}
+
+#formVertical p {
+  transform: rotate(90deg);
+}
 
 /*# sourceMappingURL=main.css.map */
