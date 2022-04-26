@@ -3,13 +3,19 @@ nav{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: $large;
-    #navbarLogo{
-        background-color: $smokyBlack;
-        font-family: 'Old Standard TT', serif;
-        font-weight: 700;
-        font-size: $x-large;
-        color: $white;
-        padding: 10px 8px;
+    height: 80px;
+    .container{
+        height: 100%;
+        #navbarLogo{
+            position: relative;
+            background-color: $smokyBlack;
+            height: 100%;
+            font-family: 'Old Standard TT', serif;
+            font-weight: 700;
+            font-size: $large;
+            color: $white;
+            padding: 20px 8px 10px 8px;
+        }
     }
 }
 // font-family: 'Old Standard TT', serif;

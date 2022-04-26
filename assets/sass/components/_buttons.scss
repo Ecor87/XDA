@@ -2,15 +2,19 @@
     border: 0;
 }
 #buttonStore{
+    background-color: $white;
     border-radius: 0px;
-    font-size: $large;
+    font-size: $medium;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
+    border: 1px solid $smokyBlack;
+    transition: background-color 2s, color 2s;
+    padding: 10px 30px;
 }
 #buttonStore:hover{
     border-color: $quickSilver;
-    background-color: $white;
-    color: $smokyBlack;
+    background-color: $smokyBlack;
+    color: $white;
 }
 #buttonStore:focus{
     border: 1px solid $quickSilver;

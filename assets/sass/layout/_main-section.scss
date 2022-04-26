@@ -6,10 +6,10 @@ article{
         font-size: $xx-large;
         font-family: 'Old Standard TT', serif;
         font-weight: 700;
-        text-transform: capitalize;
+        text-transform: uppercase;
     }
     p{
-        font-family: $medium;
+        font-size: $small;
         font-family: 'Raleway', sans-serif;
     }
 
@@ -18,18 +18,21 @@ article{
     background-color: $smokyBlack;
     color: $white;
     font-family: 'Raleway', sans-serif;
+    transition: background-color 2s, color 2s, border 2s;
     #formTitle{
         font-size: $x-large;
         font-family: 'Old Standard TT', serif;
         font-weight: 700;
+        margin: 0;
     }
     label{
         font-family: 'Old Standard TT', serif;
         font-weight: 400;
-        font-size: $medium;
+        font-size: $small;
     }
     input{
         border-radius: 0px;
+        font-size: $small;
     }
     #formVertical{
         display: flex;
@@ -45,4 +48,14 @@ article{
             color: $smokyBlack;
         }
     }
+}
+.formContainer:hover{
+    background-color: $white;
+    color: $smokyBlack;
+}
+#mainImage{
+    transition: filter 2s;
+}
+#mainImage:hover{
+    filter: sepia(100%)
 }
