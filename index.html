@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XDA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
           <a class="navbar-brand" id="navbarLogo" href="#">XDA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" id="navbarBurger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -34,23 +37,26 @@
     <main class="container">
         <div class="row">
             <div class="col-lg-5 order-2 order-lg-1">
-                <article>
+                <article class="py-3">
                     <h3>Lorem, ipsum dolor.</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere vitae id aliquam, alias laudantium dicta ex optio ipsa numquam non labore exercitationem corrupti repellat animi possimus velit a minus tempora officia voluptatum nisi voluptates assumenda natus! Ipsum omnis aliquid alias sapiente natus commodi ullam repudiandae. Officiis alias assumenda itaque.</p>
-                    <button type="button" class="btn btn-outline-dark">It a tienda</button>
+                    <button type="button" class="btn btn-outline-dark" id="buttonStore">Ir a tienda</button>
                 </article>
-                <div class="row">
-                    <div class="col-10 px-0">
-                        <form class="bg-dark text-light">
-                            <div class="mb-3 p-5">
-                                <p>Newsletter</p>
-                                <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo electrónico">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-2" id="formVertical">
-                        <p>Susrcibir</p>
+                <div class="container">
+
+                    <div class="row formContainer">
+                        <div class="col-11 px-0">
+                            <form class="">
+                                <div class="mb-3 p-5">
+                                    <p id="formTitle">Newsletter</p>
+                                    <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo electrónico">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-1" id="formVertical">
+                            <p>Susrcibir</p>
+                        </div>
                     </div>
                 </div>
             </div>

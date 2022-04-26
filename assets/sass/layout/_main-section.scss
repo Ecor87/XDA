@@ -1,5 +1,48 @@
-#formVertical{
+article{
+    display: inline-block;
+    width: 100%;
+    padding: 0% 10%;
+    h3{
+        font-size: $xx-large;
+        font-family: 'Old Standard TT', serif;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
     p{
-        transform: rotate(90deg);
+        font-family: $medium;
+        font-family: 'Raleway', sans-serif;
+    }
+
+}
+.formContainer{
+    background-color: $smokyBlack;
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+    #formTitle{
+        font-size: $x-large;
+        font-family: 'Old Standard TT', serif;
+        font-weight: 700;
+    }
+    label{
+        font-family: 'Old Standard TT', serif;
+        font-weight: 400;
+        font-size: $medium;
+    }
+    input{
+        border-radius: 0px;
+    }
+    #formVertical{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $white;
+        p{
+            transform: rotate(90deg);
+            font-family: 'Old Standard TT', serif;
+            font-weight: 700;
+            font-size: $large;
+            color: $smokyBlack;
+        }
     }
 }

@@ -1,0 +1,18 @@
+#navbarBurger{
+    border: 0;
+}
+#buttonStore{
+    border-radius: 0px;
+    font-size: $large;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+#buttonStore:hover{
+    border-color: $quickSilver;
+    background-color: $white;
+    color: $smokyBlack;
+}
+#buttonStore:focus{
+    border: 1px solid $quickSilver;
+    color: $quickSilver;
+}

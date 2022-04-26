@@ -1,6 +1,16 @@
 nav{
+    background-color: $white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: $large;
     #navbarLogo{
-        background-color: black;
-        color: white;
+        background-color: $smokyBlack;
+        font-family: 'Old Standard TT', serif;
+        font-weight: 700;
+        font-size: $x-large;
+        color: $white;
+        padding: 10px 8px;
     }
 }
+// font-family: 'Old Standard TT', serif;
+// font-family: 'Raleway', sans-serif;
